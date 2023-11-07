@@ -8,7 +8,7 @@
 body{
     color: white;
         position: relative;
-         min-height: 795px;
+         min-height: 855px;
          background: url(images/wepik-export-202310122113042RJl.jpeg);
          background-position: center;
          background-size: cover;
@@ -333,7 +333,7 @@ strong{
     
 }
 footer{
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
