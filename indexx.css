@@ -27,6 +27,7 @@ p{
 }
 .to{
     font-family: 'Mystery Quest', cursive;
+    color: white;
 }
 .says{
     padding: 30px;
@@ -40,7 +41,7 @@ p{
 }
  
  .big-moto{
-    font-size: 100%;
+    font-size: 200%;
     color: rgb(255, 0, 0);
     margin-left: 15px;
  }
