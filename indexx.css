@@ -8,7 +8,7 @@
 body{
     color: white;
         position: relative;
-         min-height: 500px;
+         min-height: 753px;
          background: url(images/wepik-export-202310122113042RJl.jpeg);
          background-position: center;
          background-size: cover;
@@ -55,19 +55,19 @@ font-style: italic;
  img{
     width: 70px;
     position: relative;
-    left: 42%;
-    top: 25px;
+    left: 26%;
+    top: 70px;
     cursor: pointer;
  }
   
  
 .img-1{
-    left: 30%;
+    left: 22%;
      
 }
  
 .img-3{
-    left: 54%;   
+    left: 44%;
 }
  
 .img-4{
@@ -104,6 +104,7 @@ font-style: italic;
     bottom: 50%;
     line-height: 4;
     font-size: xx-large;
+    color: white;
 }
 .in-text{
     position: relative;
