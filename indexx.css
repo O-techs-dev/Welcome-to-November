@@ -8,7 +8,7 @@
 body{
     color: white;
         position: relative;
-         min-height: 900px;
+         min-height: 940px;
          background: url(images/wepik-export-202310122113042RJl.jpeg);
          background-position: center;
          background-size: cover;
@@ -28,7 +28,9 @@ p{
 .to{
     font-family: 'Mystery Quest', cursive;
 }
- 
+.says{
+    padding: 30px;
+}
 .moto{
     font-size: medium;
     color: black;
