@@ -15,7 +15,7 @@ body{
          background-repeat: no-repeat;
          transition: 0.5s;
          filter: brightness(100%);  
-          
+          overflow: hidden;
 }
  h1{
     text-align: center;
@@ -71,11 +71,11 @@ font-style: italic;
      
 }
 .img-2{
-    left: 37%;
+    left: 32%;
 }
   
 .img-3{
-    left: 57%;   
+    left: 53%;   
 }
  
 .img-4{
