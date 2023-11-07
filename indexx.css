@@ -125,9 +125,7 @@ strong{
      user-select: none;
      pointer-events: none;
 }
- .container .content{
-    color: black;
- }
+ 
  
 #pop{
     position: fixed;
