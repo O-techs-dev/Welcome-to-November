@@ -8,7 +8,7 @@
 body{
     color: white;
         position: relative;
-         min-height: 895px;
+         min-height: 900px;
          background: url(images/wepik-export-202310122113042RJl.jpeg);
          background-position: center;
          background-size: cover;
@@ -37,7 +37,7 @@ p{
 }
  
  .big-moto{
-    font-size: 100%;
+    font-size: 200%;
     color: rgb(255, 0, 0);
     margin-left: 15px;
  }
@@ -56,13 +56,13 @@ font-style: italic;
     width: 70px;
     position: relative;
     left: 29%;
-    top: 70px;
+    top: 100px;
     cursor: pointer;
  }
   
  
 .img-1{
-    left: 22%;
+    left: 20%;
      
 }
  
