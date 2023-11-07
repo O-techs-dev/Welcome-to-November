@@ -1,0 +1,344 @@
+@import url(Ballet/Ballet-Regular-VariableFont_opsz.ttf);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    color: white;
+        position: relative;
+         min-height: 500px;
+         background: url(images/wepik-export-202310122113042RJl.jpeg);
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         transition: 0.5s;
+         filter: brightness(100%);  
+         overflow: hidden;
+}
+ h1{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ballet', sans-serif;
+ }
+p{
+    line-height: 1;
+}
+.to{
+    font-family: 'Mystery Quest', cursive;
+}
+ 
+.moto{
+    font-size: medium;
+    color: black;
+    margin-left: 15px;
+     
+}
+ 
+ .big-moto{
+    font-size: 100%;
+    color: rgb(255, 0, 0);
+    margin-left: 15px;
+ }
+  
+.write{
+text-align: center;
+font-size: larger;
+color: blue;
+font-style: italic;
+
+}
+.nov{
+    color: brown;
+}
+ img{
+    width: 70px;
+    position: relative;
+    left: 42%;
+    top: 25px;
+    cursor: pointer;
+ }
+  
+ 
+.img-1{
+    left: 30%;
+     
+}
+ 
+.img-3{
+    left: 54%;   
+}
+ 
+.img-4{
+    width: 100px;
+    cursor: pointer;
+     
+    
+}
+.hidden{
+    display: none;
+}
+.random{
+   
+    width: 11%;
+    height: 20%;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+     background:rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 10%;
+    left: 5px;
+    border: none;
+    font-weight: 1000;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: brightness(200%);
+     
+}
+.text{
+    position: relative;
+    bottom: 50%;
+    line-height: 4;
+    font-size: xx-large;
+}
+.in-text{
+    position: relative;
+    font-size: x-large;
+}
+strong{
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.747)
+}
+ 
+.container#blur.active{
+    filter: blur(20px);
+     user-select: none;
+     pointer-events: none;
+}
+.container#blur.actives{
+    filter: blur(20px);
+     user-select: none;
+     pointer-events: none;
+}
+ 
+#pop{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 40px rgba(0,0,0,.30);
+    background:none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#pop.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
+}
+#pops{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 40px rgba(0,0,0,.30);
+    background:none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#pops.actives{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
+}
+#pop3{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 40px rgba(0,0,0,.30);
+    background:none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#pop3.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
+}
+#pop4{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 40px rgba(0,0,0,.30);
+    background:none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#pop4.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
+}
+#pop5{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 40px rgba(0,0,0,.30);
+    background:none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#pop5.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
+}
+#pop6{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 40px rgba(0,0,0,.30);
+    background:none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#pop6.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
+}
+#pop7{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 40px rgba(0,0,0,.30);
+    background:none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#pop7.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
+}
+#pop8{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 40px rgba(0,0,0,.30);
+    background:none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#pop8.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
+}
+#pop9{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 40px rgba(0,0,0,.30);
+    background:none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#pop9.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
+}
+.imgs{
+    line-height: 5;
+    position: relative;
+    
+}
+.img-1:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-out; 
+}
+.img-3:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-out; 
+}
+ .img-2:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-out; 
+}
+ 
+.open-image{
+    width: 250px;
+    position: relative;
+    left: 42%;
+    top: 25px;
+    cursor: pointer;
+    
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 67%;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+   }
