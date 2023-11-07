@@ -29,7 +29,7 @@ p{
     font-family: 'Mystery Quest', cursive;
 }
 .says{
-    padding: 30px;
+    padding: 34px;
 }
  
 .moto{
@@ -68,9 +68,11 @@ font-style: italic;
     left: 17%;
      
 }
+.img-2{
+    left: 33%;
  
 .img-3{
-    left: 47%;
+    left: 59%;
 }
  
 .img-4{
