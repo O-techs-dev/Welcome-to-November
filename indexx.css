@@ -89,7 +89,7 @@ font-style: italic;
 }
 .random{
    
-    width: 11%;
+    width: 18%;
     height: 20%;
     position: relative;
     display: inline-block;
@@ -183,7 +183,7 @@ strong{
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 600px;
+    width: 300px;
     padding: 50px;
     box-shadow: 0 5px 40px rgba(0,0,0,.30);
     background:none;
